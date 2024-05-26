@@ -24,7 +24,7 @@ strict = true
 [tool.poetry]
 name = "certbot-oci-certificates"
 version = "0.1.0"
-description = ""
+description = "A Certbot plugin for OCI DNS authentication and OCI Certificates installation."
 authors = ["Björn Reetz <git@bjoern-reetz.de>"]
 readme = "README.md"
 packages = [{include = "certbot_oci_certificates", from = "src"}]
